@@ -11,6 +11,7 @@ button {
 img {
     display: block;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -18,10 +19,10 @@ font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color: #4d5ae5;
 }
 .logo-web-color {
-    color: #4d5ae5
+    color: #2e2f42
 }
 .menu-item-link {
 font-weight: 500;
@@ -31,7 +32,8 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .address-header-link {
-font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -39,7 +41,7 @@ color: #434455;
 }
 .menu-item-link:hover,
 .menu-item-link:focus {
-    color: #9747FF;
+    color: #404bbf;
     ;
 }
 .address-header-link:hover,
@@ -56,9 +58,9 @@ color: #434455;
     color: #fff;
 }
 
-body {
+.page {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455
     background-color: #FFFFFF;
 }
 
