@@ -42,7 +42,7 @@ color: #434455;
 }
 .address-header-link:hover,
 .address-header-link:focus {
-    color: #9747FF;
+    color: #404bbf;
 }
 
 .main-title {
@@ -120,7 +120,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4d5ae5;
-text-transform: uppercase
+text-transform: uppercase;
     }
 
 .header-address {
@@ -134,7 +134,7 @@ text-transform: uppercase
         color: #2e2f42;
     }
     .logo-web-color {
-        color: #f4f4fd;
+        color: #2e2f42;
     }
     .benefits-title-names {
 font-weight: 500;
