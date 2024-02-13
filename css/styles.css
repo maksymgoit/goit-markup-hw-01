@@ -89,7 +89,7 @@ color: #434455;
 .portfol-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
@@ -120,6 +120,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4d5ae5;
+text-transform: uppercase
     }
 
 .header-address {
@@ -162,7 +163,7 @@ color: #2e2f42;
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
