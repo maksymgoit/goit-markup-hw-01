@@ -87,7 +87,6 @@ color: #434455;
 }
 
 .portfol-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -97,6 +96,12 @@ color: #2e2f42;
 }
     .team-section {
         background: #F4F4FD;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
     }
     .team-list-item {
 background: #fff;
@@ -134,7 +139,7 @@ text-transform: uppercase;
         color: #2e2f42;
     }
     .logo-web-color {
-        color: #2e2f42;
+        color: #f4f4fd;
     }
     .benefits-title-names {
 font-weight: 500;
@@ -152,7 +157,7 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
     }
-    .portfol-type { 
+    .portfol-types { 
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -168,4 +173,20 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+}
+
+.benefits-list-item {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+    background-color: #FFFFFF;
+}
+
+.benefits-descr {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
