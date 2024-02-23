@@ -151,9 +151,9 @@ justify-content: space-between;
     padding: 188px 0;
 }
 
-.container-main {
-    padding-top: 188px;
-    padding-bottom: 188px;
+.container-main-section {
+    padding: 188px 15px;
+
 }
 
 
@@ -338,11 +338,18 @@ border-radius: 0px 0px 4px 4px;
         }
     
         .portfol-title {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11111;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
             text-align: center;
+            color: #2e2f42;
             margin-bottom: 72px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 8px;
+            display: block;
         }
     
     .portfolio-list-item {
