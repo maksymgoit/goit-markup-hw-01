@@ -26,10 +26,10 @@ button {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    /* justify-content: space-between; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -285,7 +285,13 @@ border-radius: 0px 0px 4px 4px;
         padding: 32px 0;    ;
     }
     .team-names-company {
-        text-align: center;
+        font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
         margin-bottom: 8px;
     }
 
