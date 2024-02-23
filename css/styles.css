@@ -26,11 +26,10 @@ button {
 
 .container {
     width: 1158px;
-}
-.container {
-    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 
@@ -62,12 +61,7 @@ color: #434455;
 }
 
 
-.header-address {
-    display: flex;
-}
-.address-list {
-    display: flex;
-}
+
 
 .logo-web-color-header {
     color: #2E2F42;
@@ -91,9 +85,22 @@ color: #434455;
 
 .top-navigation {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-between;
     
+}
+
+.header-address {
+    display: flex;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+.page-header {
+    display: flex;
 }
 
 .menu {
@@ -403,13 +410,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-        display: flex;
-        max-width: 300px    ;
+        max-width: 264px;
     }
 
     .page-footer {
         background: #2e2f42;
         padding: 100px 0;
+        
     }
 
     .footer-logo {
