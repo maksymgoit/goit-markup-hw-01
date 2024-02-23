@@ -98,12 +98,7 @@ color: #434455;
     display: flex;
     gap: 40px;
 }
-.container-header {
-    display: flex;
-    max-width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .address-list-item {
     display: flex;
