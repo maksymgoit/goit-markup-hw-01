@@ -106,6 +106,7 @@ color: #434455;
 .menu {
     display: flex;
     gap: 40px;
+    margin: auto;
 }
 .container-header {
     display: flex;
@@ -435,8 +436,7 @@ color: #4d5ae5;
 text-transform: uppercase;
 margin-bottom: 16px;
 display: inline-block;
-
-    }
+}
 
     .logo-web-color {
         color: #f4f4fd;
