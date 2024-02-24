@@ -3,6 +3,10 @@ h1,h2,h3 {margin: 0;}
 
 p {margin: 0;}
 
+.page {
+    margin: 0;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -25,9 +29,9 @@ button {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 /* Header section */
@@ -49,13 +53,15 @@ color: #434455;
     color: #404bbf;
 }
 .address-list-item {
+    padding: 24px 0;
+}
+
+.container-navigation {
     display: flex;
+    align-items: center;
 }
 
 
-.header-address {
-    display: flex;
-}
 
 .logo-web-color-header {
     color: #2E2F42;
@@ -74,20 +80,19 @@ color: #434455;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    display: flex;
 }
 
 
 .top-navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-right: 332px;
 }
 
 
 .address-list {
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 
 
@@ -104,7 +109,7 @@ color: #434455;
 
 
 .page-header {
-    /* border-bottom: 1px solid #e7e9fc; */
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -263,7 +268,7 @@ width: calc((100% - 72px) / 4);
     .team-name-position {
         margin-left: auto;
         margin-right: auto;
-        padding: 32px 16px;
+        padding: 32px 0;
     }
     .team-names-company {
         font-family: "Roboto", sans-serif;
