@@ -59,6 +59,8 @@ color: #434455;
 .container-navigation {
     display: flex;
     align-items: center;
+    
+    
 }
 
 
@@ -125,13 +127,23 @@ color: #434455;
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 
 
 /* MAIN Section */
 .main-section {
-    background-color: #2E2F42;
+    /* background-color: #2E2F42; */
+
+    text-align: center;
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient((rgb(46, 47, 66)),rgb(46, 47, 66)), url(../images/people-office.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-origin: padding-box;
+    background-clip: padding-box;
+    
 }
 
 .container-main-section {
