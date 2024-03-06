@@ -48,6 +48,25 @@ color: #434455;
 .menu-item-link:focus {
     color: #404bbf;
 }
+
+.studio-link::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+
+
+.menu-item-link {
+    transition: color 250ms linear ;
+}
+
 .address-header-link:hover,
 .address-header-link:focus {
     color: #404bbf;
@@ -125,24 +144,24 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
-
 
 /* MAIN Section */
 .main-section {
-    /* background-color: #2E2F42; */
-
+    background-color: #2E2F42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding: 188px 0;
     background-repeat: no-repeat;
-    background-image: linear-gradient((rgb(46, 47, 66)),rgb(46, 47, 66)), url(../images/people-office.jpg);
-    background-position: left top;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg.jpg.jpg);
     background-size: cover;
     background-origin: padding-box;
     background-clip: padding-box;
+
     
 }
 
@@ -211,14 +230,13 @@ margin-bottom: 48px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    /* display: flex; */
     }
     
     .benefits-list {
         display: flex;
-        /* justify-content: flex-start; */
         gap: 24px;
     }
+
 
 .visually-hidden {
     position: absolute;
@@ -258,11 +276,24 @@ margin-bottom: 48px;
 }
 .team-list-item {
 background: #fff;
-display: flex;
 border-radius: 0px 0px 4px 4px;
 max-width: 264px;
 flex-wrap: wrap;
 width: calc((100% - 72px) / 4);
+}
+
+.logo-icon-div {
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+padding: 24px 100px;
+margin-bottom: 8px;
+}
+
+.professions-of-workers {
+    margin-bottom: 8px;
 }
 
 .team-title {
@@ -280,7 +311,7 @@ width: calc((100% - 72px) / 4);
     .team-name-position {
         margin-left: auto;
         margin-right: auto;
-        padding: 32px 0;
+        padding: 32px 16px;
     }
     .team-names-company {
         font-family: "Roboto", sans-serif;
@@ -293,8 +324,7 @@ color: #2e2f42;
         margin-bottom: 8px;
     }
 
-    .professions-of-workers {
-    }
+   
     
     .team-names {
         font-weight: 500;
@@ -319,8 +349,15 @@ color: #2e2f42;
         gap: 24px;
     }
 
-
-
+    .social-list-item {
+        width: 40px;
+        height: 40px;
+    }
+    .social-list {
+        display: flex;
+        column-gap: 24px;
+        align-items: center;
+    }
 /* PAGE PORTFOLIO */
 
 .page-portfolio {
@@ -355,8 +392,12 @@ color: #2e2f42;
     .portfolio-list-item {
         max-width: 360px;
         width: calc((100% - 48px) / 3);
+        
     }
 
+    .portfolio-list-item:hover .payment-overlay {
+        transform: translateY(0%);
+    }
 
     .portfolio-list {
         display: flex;
@@ -382,9 +423,27 @@ height: 120px;
     background-color: #FFFFFF;
 }
 
+.payment-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    overflow: auto;
+    background: #4d5ae5;
+    transform: translateY(-100%);
+    transition: transform 250ms linear;
+}
+.img-and-overlay {
+    position: relative;
+    overflow: hidden;
+    
+} 
 
-
-
+.payment-overlay-text {
+    color: #f4f4fd;
+}
 
 /* ++++++FOOTER PAGE+++++++ */
 
@@ -424,4 +483,21 @@ display: inline-block;
         color: #f4f4fd;
     }
 
+.social-list-footer {
+    column-gap: 16px;
+}
+
+.social-media-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.footer-flex {
+    display: flex;
+    column-gap: 120px;
+}
 
