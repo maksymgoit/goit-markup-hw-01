@@ -306,6 +306,9 @@ width: calc((100% - 72px) / 4);
 }
 
 .logo-icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
 border-radius: 4px;
 width: 264px;
@@ -371,26 +374,33 @@ color: #2e2f42;
     .team-list {
         display: flex;
         gap: 24px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     
 
     .social-list {
         display: flex;
-        column-gap: 24px;
+        gap: 24px;
         align-items: center;
+        justify-content: center;
     }
 
     .social-list-link {
         width: 100%;
         height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
     }
 
     .social-list-link.order-lin:hover {
         background-color: #4d5ae5;
     }
 
+    .social-list-item {
+        width: 40px;
+        height: 40px;
+    }
 
 /* PAGE PORTFOLIO */
 
@@ -426,6 +436,8 @@ color: #2e2f42;
     .portfolio-list-item {
         max-width: 360px;
         width: calc((100% - 48px) / 3);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     }
 
@@ -478,6 +490,8 @@ height: 120px;
 .payment-overlay-text {
     color: #f4f4fd;
 }
+
+
 
 /* ++++++FOOTER PAGE+++++++ */
 
@@ -540,7 +554,7 @@ margin-bottom: 16px;
 
 .social-list-footer {
     display: flex;
-    column-gap: 16px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -556,10 +570,16 @@ margin-bottom: 16px;
 }
 
 .social-list-link-footer:hover, 
-:focus {
+.social-list-link-footer:focus {
     background-color: #31d0aa;
 }
 
 .social-list-icon {
     fill: #f4f4fd;
+}
+
+.social-list-item-footer {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
